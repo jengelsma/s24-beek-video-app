@@ -21,6 +21,7 @@ const VideoListScreen = ({ navigation }) => {
   }, []);
 
   const renderVideo = ({ index, item }) => {
+    console.log("index=", index);
     return (
       <TouchableOpacity
         onPress={() => {
